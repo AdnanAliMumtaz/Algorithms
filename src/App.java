@@ -28,7 +28,7 @@ public class App {
         int index_ = myBinarySearch.searchIteratively(0, dataBS.length-1, dataBS, target);
         System.out.println("BinarySearch - Iteratively Searched Index: " + index_);
 
-        // QuickSort Algorithm 
+        // QuickSort Algorithm O(n log n)
         int[] dataQ = {23,4,1,2,5,93,12,3};
         quickSort myQuickSort = new quickSort(dataQ);
         myQuickSort.sort(dataQ, 0, dataQ.length-1);
